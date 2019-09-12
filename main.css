@@ -1,13 +1,44 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
-</style>
 
 
-h1 {
+ *{
     font-family: "Libre+baskerville", monospace;
 }
 
-. center {
-    text-align: center;
+
+* { 
+    font-size: 20px;
 }
     
+.p {
+    background-color: lightskyblue
+}
+
+* {
+    background: url(giphy.gif) center center fixed; 
+    background-size: center;
+}
+
+box {
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    padding:20px;
+    width:20%; }       
+.box1 { background:rgb(153, 102,204)}
+ .box2 {background:rgb(153, 102,204)}
+ .box3 {background:rgb(153, 102, 204)}
+ .box4 {background:rgb(183, 104, 162)}
+ .box5 {background:rgb(153, 102, 204)}
+ .box6 {background:rgb(183, 104, 162)}
+ .box7 {background:rgb(153, 102, 204)}
+ .box8 {background:rgb(183, 104, 162)}
+ .box9 {background:rgb(153, 102, 204)}
+ .box10 {background:rgb(183, 104, 162)}
+ .container {
+    display: flex;
+    min-height:20vh;
+    flex-wrap:wrap;
+ 
+ }
